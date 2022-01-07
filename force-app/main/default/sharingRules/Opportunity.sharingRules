@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>InternalASTMusers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Internal ASTM users</label>
+        <sharedTo>
+            <group>InternalASTMusers</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SalesManagersA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales ManagersA</label>
+        <sharedTo>
+            <role>SalesManagers</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SalesManagers</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
